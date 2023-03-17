@@ -1,1 +1,31 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.card {
+  width: 18rem;
+  height: 24rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  background-color: green;
+}
+
+#bodyCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+strong {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 300%;
+}
+#symbolCard {
+  font-size: 600%;
+  color: red;
+}
+#valor {
+  font-size: 700%;
+}
